@@ -2,13 +2,13 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const SecondPage = () => (
+const Destintions = () => (
   <Layout>
     <SEO title="Page two" />
-    <h1>IMAGES</h1>
-    <p>Welcome to page 2</p>
+    <h1>DESTINATIONS</h1>
+    <p>Contet here</p>
     
   </Layout>
 )
 
-export default SecondPage
+export default Destintions
