@@ -1,14 +1,18 @@
-import React from "react"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import React from "react";
+import  '../../src/components/layout.css';
+import Layout from "../components/layout";
+import SEO from "../components/seo";
 
-const Destintions = () => (
+
+const Destinations = () => (
   <Layout>
-    <SEO title="Page two" />
-    <h1>DESTINATIONS</h1>
-    <p>Contet here</p>
+    <SEO title="Destinations" />
+    <div className='destinations'>
+      <h1>DESTINATIONS</h1>
+    </div>
+    
     
   </Layout>
 )
 
-export default Destintions
+export default Destinations;
